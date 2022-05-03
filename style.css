@@ -1,0 +1,1828 @@
+﻿
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                      General Settings                                                    */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+html 
+    {
+    scroll-behavior:smooth;
+    }
+
+body 
+{
+    background-color: #12223B;
+    color: white;
+    max-width: 1920px;
+}
+
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, a
+{
+    font-family: 'Comfortaa', cursive;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                      Navbar Settings                                                     */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.navBar {
+    width: 100%;
+    height: 60px;
+    padding: 0px 450px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.navLinks
+{
+    list-style: none;
+    clear: both;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 299px;
+}
+
+.navLinks li
+{
+    display: inline-block;
+    padding-left: 100px;
+    padding: 0px 60px;
+    float: left;
+    
+}
+
+.navBar a 
+{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.navBar a:hover
+{
+    color: white;
+    font-size: 25px;
+    overflow: visible;
+    border-bottom: 1px solid white;
+    transition: 150ms;
+}
+
+@media screen and (min-width: 320px) 
+{
+
+    .navBar 
+    {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks 
+    {
+        list-style: none;
+        padding-left: 50px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 1px;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (min-width: 425px) 
+{
+
+    .navBar 
+    {
+        width: 60px;
+        height: 60px;
+        padding-left: 100px;
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks 
+    {
+        list-style: none;
+        padding-left: 1px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+
+    .navBar
+    {
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks
+    {
+        list-style: none;
+        padding-left: 110px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .navBar
+    {
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks 
+    {
+        list-style: none;
+        padding-left: 245px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) 
+{
+
+    .navBar 
+    {
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks 
+    {
+        list-style: none;
+        padding-left: 420px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1920px) 
+{
+
+    .navBar 
+    {
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .navLinks 
+    {
+        list-style: none;
+        padding-left: 1340px;
+    }
+
+    .navLinks li 
+    {
+        display: flex;
+        float: left;
+        padding-right: 15px;
+    }
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                      About Settings                                                      */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.about
+{
+    display: inline-block;
+    width: 99vw;
+    text-align: center;
+    align-content: center;
+    position: relative;
+
+}
+
+.abtColumn1 
+{
+    color: black;
+    float: left;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+.abtColumn1 h2
+{
+    border-bottom: 1px solid aquamarine;
+    color: aquamarine;
+    margin-top: 450px;
+    font-size: 40px;
+    transform: rotate(-90deg);
+}
+
+.abtColumn2 
+{
+    color: aquamarine;
+    float: left;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid aquamarine;
+}
+
+.abtColumn2 p
+{
+    color: aquamarine;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.abtColumn2 h1
+{
+    color: aquamarine;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 22%;
+}
+
+.abtColumn2 a
+{
+    color: #FEA02F;
+    border: ridge;
+    border-radius: 10px;
+    border-width: 2px;
+    outline-offset: 100px;
+    text-decoration: none;
+    margin-left: 38%;
+    padding: 15px;
+}
+
+.abtColumn2 a:hover
+{
+    font-size: 25px;
+    overflow: visible;
+    transition: 150ms;
+}
+
+@media screen and (max-width: 424px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 900px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 900px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 350px;
+        margin-left: 20px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .abtColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 22%;
+    }
+
+    .abtColumn2 p 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 900px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 5%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 750px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 350px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .abtColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 22%;
+    }
+
+    .abtColumn2 p 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 760px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 15%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 750px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 750px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 770px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 33%;
+        padding: 15px;
+    }
+
+    .abtColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        font-size: 30px;
+        width: 90px;
+        text-align: left;
+        margin-left: 27%;
+    }
+
+    .abtColumn2 p {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        margin-left: 27%;
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 800px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 35%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 800px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 35%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 1920px) 
+{
+    .about 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 1000px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .abtColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .abtColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 900px;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .abtColumn2 a 
+    {
+        color: #FEA02F;
+        border: ridge;
+        border-radius: 10px;
+        border-width: 2px;
+        outline-offset: 100px;
+        text-decoration: none;
+        margin-left: 35%;
+        padding: 15px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                   Projects Settings                                                      */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.projects 
+{
+    display: inline-block;
+    width: 99vw;
+    text-align: center;
+    align-content: center;
+}
+
+.projColumn1 
+{
+    color: black;
+    float: left;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+.projColumn1 h2 
+{
+    border-bottom: 1px solid aquamarine;
+    color: aquamarine;
+    margin-top: 450px;
+    font-size: 40px;
+    transform: rotate(-90deg);
+}
+
+.projColumn2 
+{
+    color: aquamarine;
+    float: left;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    border-bottom: 1px solid aquamarine;
+}
+
+.projColumn2 p
+{
+    color: aquamarine;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.projColumn2 h1
+{
+    color: aquamarine;
+    float: left;
+    width: 367px;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 10px;
+    border-bottom: 1px solid aquamarine;
+}
+
+.rcmain
+{
+    width: 50%;
+    height: 50%;
+    margin-top: 16%;
+    position: center;
+}
+
+.html5 
+{
+    width: 58px;
+    clear: both;
+}
+.css
+{
+    width: 50px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 424px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 1040px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 940px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 500px;
+        margin-left: 20px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 940px;
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 13%;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .projColumn2 p 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .projColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        width: 120px;
+        display: block;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .rcmain 
+    {
+        width: 85%;
+        height: 85%;
+        margin-top: 15px;
+        position: center;
+    }
+
+    .html5 
+    {
+        width: 40px;
+        clear: both;
+    }
+
+    .css 
+    {
+        width: 35px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 425px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 900px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 1050px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 470px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 840px;
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 13%;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .projColumn2 p 
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .projColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        width: 120px;
+        display: block;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .rcmain 
+    {
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+        position: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 800px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 750px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 450px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 880px;
+        text-align: center;
+        line-height: 1.5;
+        border-bottom: 1px solid aquamarine;
+        margin-top: 0px;
+    }
+
+    .projColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        margin-left: 27%;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .projColumn2 h1 
+    {
+        color: aquamarine;
+        float: left;
+        width: 360px;
+        display: block;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 22%;
+        margin-top: 30px;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .rcmain 
+    {
+        width: 50%;
+        height: 50%;
+        margin-top: 14%;
+        margin-left: 20px;
+        position: center;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 900px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 900px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 450px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 900px;
+        text-align: center;
+        line-height: 1.5;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .projColumn2 h1 
+     {
+        color: aquamarine;
+        float: left;
+        width: 360px;
+        display: block;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 27%;
+        margin-top: 30px;
+        border-bottom: 1px solid aquamarine;
+     }
+
+    .rcmain 
+    {
+        width: 50%;
+        height: 50%;
+        margin-top: 14%;
+        margin-left: 20px;
+        position: center;
+    }
+
+}
+
+@media screen and (min-width: 1440px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 950px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 950px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 450px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 950px;
+        text-align: center;
+        line-height: 1.5;
+        border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 1920px) 
+{
+    .projects 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 950px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 
+    {
+        color: black;
+        float: left;
+        width: 10%;
+        height: 950px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .projColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 450px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
+    .projColumn2 
+    {
+        color: aquamarine;
+        float: left;
+        width: 80%;
+        height: 950px;
+        text-align: center;
+        line-height: 1.5;
+        border-bottom: 1px solid aquamarine;
+    }
+
+    .rcmain 
+    {
+        width: 50%;
+        height: 50%;
+        margin-top: 4%;
+        position: center;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                    Contact Settings                                                      */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.contact 
+{
+    display: inline-block;
+    width: 99vw;
+    text-align: center;
+    float: left;
+    margin-top: 10%;
+}
+
+.contactColumn1 
+{
+    float: left;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+.contactColumn1 h2 
+{
+    border-bottom: 1px solid aquamarine;
+    color: aquamarine;
+    margin-top: 125px;
+    padding: 0px 10px;
+    font-size: 40px;
+    transform: rotate(-90deg);
+
+}
+
+.contactColumn2 
+{
+    padding-left: 150px;
+    padding-top: 70px;
+    float: left;
+    width: 80%;
+    text-align: center;
+}
+
+.contactColumn2 p
+{
+    color: aquamarine;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 31%;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contactColumn2 h1
+{
+    color: aquamarine;
+    float: left;
+    width: 313px;
+    text-align: left;
+    margin-left: 31%;
+    border-bottom: 1px solid aquamarine;
+}
+
+@media screen and (max-width: 424px) 
+{
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 250px;
+        text-align: center;
+        float: left;
+        margin-top: 10%;
+    }
+
+    .contactColumn1 
+    {
+        float: left;
+        width: 10%;
+        height: 250px;
+        padding-top: 50px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .contactColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 125px;
+        padding: 0px 10px;
+        font-size: 40px;
+        margin-left: 20px;
+        transform: rotate(-90deg);
+
+    }
+
+    .contactColumn2
+    {
+        padding-left: 5px;
+        padding-top: 2px;
+        float: left;
+        width: 45%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .contactColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 100%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .contactColumn2 h1 
+    {
+       color: aquamarine;
+       float: left;
+       font-size: 20px;
+       width: 209px;
+       text-align: left;
+       margin-left: 30%;
+       border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 425px) 
+{
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 250px;
+        text-align: center;
+        float: left;
+        margin-top: 10%;
+    }
+
+    .contactColumn1 
+    {
+        float: left;
+        width: 10%;
+        height: 250px;
+        padding-top: 50px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .contactColumn2
+    {
+        padding-left: 5px;
+        padding-top: 20px;
+        float: left;
+        width: 45%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .contactColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 100%;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .contactColumn2 h1 
+    {
+       color: aquamarine;
+       float: left;
+       font-size: 20px;
+       width: 209px;
+       text-align: left;
+       margin-left: 30%;
+       border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 300px;
+        text-align: center;
+        float: left;
+        margin-top: 9%;
+    }
+    .contactColumn2
+    {
+        padding-left: 5px;
+        padding-top: 70px;
+        float: left;
+        width: 80%;
+        height: 350px;
+        text-align: center;
+    }
+
+    .contactColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        margin-left: 27%;
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .contactColumn2 h1 
+    {
+       color: aquamarine;
+       float: left;
+       font-size: 30px;
+       width: 308px;
+       text-align: left;
+       margin-left: 27%;
+       border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 300px;
+        text-align: center;
+        float: left;
+        margin-top: 10%;
+    }
+
+    .contactColumn2
+    {
+        padding-left: 5px;
+        padding-top: 70px;
+        float: left;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .contactColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        height: 300px;
+        text-align: left;
+        margin-left: 27%;
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .contactColumn2 h1 
+    {
+       color: aquamarine;
+       float: left;
+       font-size: 30px;
+       width: 308px;
+       text-align: left;
+       margin-left: 27%;
+       border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 1440px) 
+{
+
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 300px;
+        text-align: center;
+        float: left;
+        margin-top: 3%;
+    }
+
+    .contactColumn1 
+    {
+        float: left;
+        width: 10%;
+        height: 300px;
+        padding-top: 20px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .contactColumn2
+    {
+        padding-left: 35px;
+        padding-top: 80px;
+        float: left;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .contactColumn2 p
+    {
+        color: aquamarine;
+        float: left;
+        width: 50%;
+        height: 300px;
+        text-align: left;
+        margin-left: 31%;
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .contactColumn2 h1 
+    {
+       color: aquamarine;
+       float: left;
+       width: 313px;
+       text-align: left;
+       margin-left: 31%;
+       border-bottom: 1px solid aquamarine;
+    }
+}
+
+@media screen and (min-width: 1920px) 
+{
+    .contact 
+    {
+        display: inline-block;
+        width: 99vw;
+        height: 300px;
+        text-align: center;
+        float: left;
+        margin-top: 5%;
+    }
+
+    .contactColumn1 
+    {
+        float: left;
+        width: 10%;
+        height: 300px;
+        padding-top: 1px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .contactColumn2
+    {
+        padding-left: 150px;
+        padding-top: 70px;
+        float: left;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+    }
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*                                                    Footer Settings                                                       */
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.footer 
+{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: #12223B;
+    height: 55px;
+    background-color: aquamarine;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.footer p 
+{
+    margin-top: 20px; 
+}
+
+.backTop 
+{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin-left: 565px;
+    color: aquamarine;
+}
+
+.backLinks
+{
+    text-decoration: none;
+    list-style: none;
+    color: aquamarine;
+}
+
+.backTop img
+{
+    width: 50px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 424px) 
+{
+    .footer 
+    {
+        display: none;
+        width: 100px;
+        font-size: 10px;
+        text-align: center;
+        color: #12223B;
+        height: 55px;
+        background-color: aquamarine;
+        margin-left: 10px;
+        margin-top: 1%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .backTop 
+    {
+        display: inline-block;
+        width: 30%;
+        height: 10%;
+        font-size: 11px;
+        margin-left: 128px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 40px;
+        margin-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width: 425px) 
+{
+    .footer 
+    {
+        display: none;
+        width: 25%;
+        font-size: 10px;
+        text-align: center;
+        color: #12223B;
+        height: 55px;
+        background-color: aquamarine;
+        margin-left: 35%;
+        margin-top: 1%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .backTop 
+    {
+        display: inline-block;
+        width: 30%;
+        height: 10%;
+        font-size: 11px;
+        margin-left: 190px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 40px;
+        margin-left: 13px;
+        padding-bottom: 5px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width: 768px) 
+{
+    .footer 
+    {
+        display: inline-block;
+        width: 35%;
+        font-size: 16px;
+        text-align: center;
+        color: #12223B;
+        height: 55px;
+        background-color: aquamarine;
+        margin-left: 35%;
+        margin-top: 10%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .backTop 
+    {
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        margin-left: 140px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 40px;
+        margin-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .footer 
+    {
+        display: inline-block;
+        width: 30%;
+        font-size: 16px;
+        text-align: center;
+        color: #12223B;
+        height: 55px;
+        background-color: aquamarine;
+        margin-left: 35%;
+        margin-top: 10%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .backTop 
+    {
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        margin-left: 200px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 40px;
+        margin-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width: 1440px) 
+{
+    .backTop 
+    {
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        margin-left: 355px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 50px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width: 1920px) 
+{
+    .footer 
+    {
+        display: inline-block;
+        width: 30%;
+        font-size: 20px;
+        text-align: center;
+        color: #12223B;
+        height: 55px;
+        background-color: aquamarine;
+        margin-left: 35%;
+        margin-top: 4%;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+
+    .backTop 
+    {
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        margin-left: 471px;
+        color: aquamarine;
+    }
+
+    .backTop img
+    {
+        width: 50px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .backLinks 
+    {
+        text-decoration: none;
+        list-style: none;
+        color: aquamarine;
+    }
+
+}
