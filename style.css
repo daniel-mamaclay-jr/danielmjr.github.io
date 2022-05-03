@@ -638,6 +638,15 @@ p, h1, h2, h3, a
         align-content: center;
     }
 
+    .abtColumn1 h2 
+    {
+        border-bottom: 1px solid aquamarine;
+        color: aquamarine;
+        margin-top: 450px;
+        font-size: 40px;
+        transform: rotate(-90deg);
+    }
+
     .abtColumn2 
     {
         color: aquamarine;
